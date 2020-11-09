@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 cd /root/src/dashboard-service
 _GIT_RESULT=`git pull origin dev | grep "Already up-to-date"`
 if [ -z _GIT_RESULTS ]
